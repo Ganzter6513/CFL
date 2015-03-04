@@ -1,0 +1,148 @@
+#header-fixed {position:fixed; 
+top:0px; 
+margin:auto; 
+z-index:100000;
+width:100%;}
+#h
+{
+font-size: 200%;
+color: #FC9508;
+top: 25px;
+background:#000;
+height:55px;
+opacity:0.5;
+}
+#image
+{
+display: block;
+position: relative;
+top: 80px;
+margin-left: 90px;
+}
+
+#tab
+{
+position: absolute;
+font-family: 'Typoface', Helvetica, sans-serif;
+top: 100px;
+left: 555px;
+}
+.lrs
+{
+display: block;
+position: absolute;
+right: 30px;
+top: 120px;
+transition: all 1s ease-in-out;
+color: white;
+width: 340px;
+height: 300px;
+background-color: white;
+}
+.lrs:hover
+ {
+  right: 300px;
+  margin-right: -100px;
+  color: black;
+  width: 340px;
+  height: 300px;
+  background-color: #FFD063;
+  box-shadow:30px 30px 15px #D7DBD9;
+}
+.statsbt
+{
+position: relative;
+margin-left: 160px;
+bottom: 300px;
+font-family: 'Typoface', Helvetica, sans-serif;
+
+}
+.lwt
+{
+display: block;
+position: absolute;
+right: 30px;
+top: 470px;
+transition: all 1s ease-in-out;
+color: white;
+width: 340px;
+height: 300px;
+background-color: white;
+}
+.lwt:hover
+ {
+  right: 300px;
+  margin-right: -100px;
+  color: black;
+  width: 340px;
+  height: 300px;
+  background-color: #FFD063;
+  box-shadow:30px 30px 15px #D7DBD9;
+  	
+}
+.statsbw
+{
+position: relative;
+margin-left: 120px;
+bottom: 300px;
+font-family: 'Typoface', Helvetica, sans-serif;
+}
+#footer 
+{
+width:100%;
+height:10px;
+bottom: -60px;
+left:0;
+position: absolute;
+
+}
+bdi
+{
+font: normal 76px/1 "Alex Brush", Helvetica, sans-serif;
+font-size: 20px;
+}
+#menubar
+{
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#menulist{
+float:right;
+}
+#menulist1:link, #menulist1:visited
+{ 
+display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FC9508;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity:0.5;
+}
+#menulist1:hover
+{
+width: 120px;
+height: 20px;
+background-color: #000;
+opacity:0.5;
+}
+
+#pt
+{
+color: #FC9508;
+}
+#pt:visited
+{
+color: #FC9508;
+}
+#tm
+{
+font-size: 40%;
+font-family: 'Typoface', Helvetica, sans-serif;
+position: relative;
+bottom: 20px;
+}
